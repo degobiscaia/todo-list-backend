@@ -1,10 +1,13 @@
 {
-    "name": "api-tarefas",
-    "version": "1.0.0",
-    "scripts": {
-        "start": "npx json-server --watch db.json --host 0.0.0.0 --port $PORT"
-    },
-    "dependencies": {
-        "json-server": "^0.17.3"
-    }
+  "name": "api-tarefas",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx json-server --watch db.json --host 0.0.0.0 --port $PORT"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3"
+  },
+  "engines": {
+    "node": "18.x"
+  }
 }
